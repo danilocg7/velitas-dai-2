@@ -1,0 +1,24 @@
+1º Que el nav se mantenga cuando bajo por la página.
+2º Que el nav en pantallas chicas se vuelva un menú (quizás)
+3º Acomodar las columnas de los productos
+4º Acomodar Imágenes de los productos
+5º Botones de compra, Detalles, etc. De Productos (Responsive y Funcionalidades)
+6º Redes Sociales funcionales y que al tener la mano sobre las redes sociales se cambie la imagen por la original con color
+7º Paleta de Colores de la página
+8º Agregar icono a Velitas Dai
+9º Acomodar imagen de presentación
+11º Incrustar un feed de Instagram en un sitio web HTML
+12º Ver si se puede crear la pagina online gratuitamente
+
+
+-----------------------
+
+Cuando agrego un producto nuevo, tengo que cambiar:
+
+data-id (único)
+
+Imagen + nombre + descripción + stock dentro de la card
+
+ID del modal (para que no se duplique)
+
+Contenido del modal (imagen, textos, WhatsApp)
