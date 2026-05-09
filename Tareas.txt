@@ -1,0 +1,38 @@
+1º Que el nav se mantenga cuando bajo por la página.✅
+2º Que el nav en pantallas chicas se vuelva un menú (quizás) ❎
+3º Acomodar las columnas de los productos✅
+4º Acomodar Imágenes de los productos✅
+5º Botones de compra, Detalles, etc. De Productos (Responsive y Funcionalidades)✅
+6º Redes Sociales funcionales y que al tener la mano sobre las redes sociales se cambie la imagen por la original con color✅
+7º Paleta de Colores de la página❎
+8º Agregar icono a Velitas Dai (en barra de buscador) ❌
+9º Acomodar imagen de presentación ❌
+10º Que hacer con la imágen ceci.bec-marca.personal-daina-14
+11º Incrustar un feed de Instagram en un sitio web HTML❎
+12º Ver si se puede crear la pagina online gratuitamente✅
+-> Cambiar el href del header (icono Velitas dai) y el href del final (.com) al dominio de la página (que la reinicie).❌
+
+
+SOLICITUDES DAI:
+-> Cambiar Fuente a otra mas normalita (mas como de un emprendimiento)❌
+-> Agregar colores (al panel dinamico, al modal, etc)❎
+-> Agregar productos originales✅
+-> WhatsApp Business✅
+-> MercadoPago agregado para cada producto como link❎
+
+
+❌-----------------------❌
+😺 YA NO LO NECESITO. PARA AGREGAR UN PRODUCTO NUEVO LO AGREGO AL ARRAY DE PRODUCTOS.JS 😺
+
+Cuando agrego un producto nuevo, tengo que cambiar:
+
+data-id (único)
+
+Imagen + nombre + descripción + stock dentro de la card
+
+ID del modal (para que no se duplique)
+
+Contenido del modal (imagen, textos, WhatsApp)
+
+❌-----------------------❌
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/candle_1150369.png" type="image/png">
+    <title>Velitas Dai</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+<!-- Header -->
+<div class="container-fluid sticky-top bg-white">
+  <div id="header" class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="img/velitas_dai_perfil.jpg" width="40" class="me-2">
+        <span class="fs-2" style="font-family: 'Cormorant Garamond', serif;">Velitas Dai</span>
+
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item fs-5"><a href="#inicio" class="nav-link" aria-current="page">Inicio</a></li>
+        <li class="nav-item fs-5"><a href="#catalogo" class="nav-link">Catálogo</a></li>
+        <li class="nav-item fs-5"><a href="#Sobre_Nosotros" class="nav-link">Sobre Nosotros</a></li>
+      </ul>
+    </header>
+  </div>
+</div>
+<!-- FIN Header -->
+
+<!-- Portada -->
+<section id="inicio">
+
+  <div id="carouselPortada"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+    data-bs-interval="3000">
+
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button"
+        data-bs-target="#carouselPortada"
+        data-bs-slide-to="0"
+        class="active">
+      </button>
+
+      <button type="button"
+        data-bs-target="#carouselPortada"
+        data-bs-slide-to="1">
+      </button>
+
+      <button type="button"
+        data-bs-target="#carouselPortada"
+        data-bs-slide-to="2">
+      </button>
+    </div>
+
+    <!-- Imágenes -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img
+          src="img/portada1.jpg"
+          class="d-block w-100 portada-img"
+          alt="Velas">
+      </div>
+
+      <div class="carousel-item">
+        <img
+          src="img/portada2.jpg"
+          class="d-block w-100 portada-img"
+          alt="Souvenirs">
+      </div>
+
+      <div class="carousel-item">
+        <img
+          src="img/portada3.jpg"
+          class="d-block w-100 portada-img"
+          alt="Bombones aromáticos">
+      </div>
+
+    </div>
+
+    <!-- Flechas -->
+    <button class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselPortada"
+      data-bs-slide="prev">
+
+      <span class="carousel-control-prev-icon"></span>
+
+    </button>
+
+    <button class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselPortada"
+      data-bs-slide="next">
+
+      <span class="carousel-control-next-icon"></span>
+
+    </button>
+
+  </div>
+
+</section>
+<!-- FIN Portada -->
+
+
+<!-- Catálogo -->
+<div id="catalogo" class="container my-5"></div>
+<!-- FIN Catálogo -->
+
+<!-- Footer -->
+<footer id="Sobre_Nosotros" class="text-center bg-body-tertiary">
+
+  <!-- Sobre Nosotros -->
+  <div class="container-fluid py-5" style="background-color: rgba(94, 91, 91, 0.05);">
+    <div class="container">
+      <div class="text-center fs-2" style="color: cadetblue;">Sobre Nosotros</div>
+
+      <div class="row my-4 align-items-center">
+        <div class="col-sm-12 col-md-6 fw-medium text-break">
+
+          <!-- Texto para pantallas sm- -->
+          <p class="d-sm-block d-md-none text-sm-center">
+            En Velitas Dai elaboramos velas artesanales con cera de soja 100% natural y aceites esenciales. <br>
+            Buscamos llevar calidez, bienestar y aromas naturales a tu hogar mediante una artesanía hecha con dedicación. <br>
+            Gracias por apoyar nuestro trabajo.
+          </p>
+
+          <!-- Texto completo (pantallas md+) -->
+          <p class="d-none d-md-block text-md-start">
+            En Velitas Dai, creamos velas artesanales hechas a mano con cera de soja 100% natural y aceites esenciales premium.
+            Nuestra misión es sencilla: llevar calidez, bienestar y el aroma de la naturaleza directamente a tu hogar a través de la artesanía consciente. <br>
+            Creemos en la belleza del proceso lento y la calidad que perdura. <br>
+            Gracias por apoyar la luz de la artesanía.
+          </p>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
+          <div class="images">
+            <img src="img/velitas_dai_perfil.jpg" class="img-fluid" alt="Velitas Dai">
+          </div>
+        </div>
+    
+        <div class="col-sm-12 col-md-2 mt-md-0">
+          <!-- Section: Social media -->
+          <section class="col-md-6 mt-5 mt-md-0">
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1 ig-hover"
+              href="https://www.instagram.com/velitas.dai/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <!-- Whatsapp -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1 whatsapp-hover"
+              href="https://wa.me/59896692522"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </section>
+          <!-- FIN Section: Social media -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- FIN Sobre Nosotros -->
+
+<hr class="m-0">
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    © 2026 Copyright:
+    <a class="text-body" href="/">VelitasDai.com</a>
+  </div>
+  <!-- FIN Copyright -->
+
+</footer>
+<!-- FIN Footer -->
+
+<!-- Barra de compra -->
+<div id="barra-compra" class="container-fluid bg-light py-3 shadow fixed-bottom d-none">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+
+    <span id="cantidad-seleccionados" class="fw-semibold"></span>
+
+    <div class="d-flex gap-2">
+      <button id="btn-whatsapp" class="btn btn-success">Comprar por WhatsApp</button>
+      <button id="btn-mercadopago" class="btn btn-info text-white">Comprar por MercadoPago</button>
+    </div>
+
+  </div>
+</div>
+<!-- FIN Barra de compra -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/productos.js"></script>
+<script src="js/catalogo.js"></script>
+<script src="js/engine-p-select.js"></script>
+</body>
+</html>
