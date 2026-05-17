@@ -8,6 +8,16 @@ html {
 #inicio, #catalogo, #Sobre_Nosotros {
     scroll-margin-top: 100px; /* Evita que el header tape el contenido */ /* ACOMODAR PARA MÓVILES */
 }
+body, .modal-content{
+  background-color: #F7F7F7 !important;
+}
+.modal-content * {
+  font-family: Arial, sans-serif !important;
+  font-size: 20px;
+}
+.card-text{
+  font-size: 18px;
+}
 /* FIN Estilos Generales */
 
 /* Portada */
@@ -67,6 +77,9 @@ html {
 /* FIN Catálogo */
 
 /* Footer */
+footer p{
+  font-size: 18px;
+}
 footer i {
   font-size: 2rem;
   opacity: 0.8;

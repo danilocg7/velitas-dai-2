@@ -72,7 +72,7 @@ function validarStockAntesDeComprar() {
 // -----------------------------------------------------
 
 function generarMensajeCompra() {
-    let texto = "👋 Hola! Quisiera comprar los siguientes productos:\n";
+    let texto = "Hola! Quisiera comprar los siguientes productos:\n";
 
     selectedProducts.forEach(id => {
         const btn = document.querySelector(`[data-id="${id}"]`);

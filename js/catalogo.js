@@ -82,7 +82,7 @@ productos.forEach((p, index) => {
                                 src="${p.imagen}"
                                 class="img-fluid rounded">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <p>${p.descripcion}</p>
                             <p>${p.precio ? `$${p.precio}` : 'Consultar precio.'}</p>
                         </div>

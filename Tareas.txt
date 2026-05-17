@@ -6,11 +6,19 @@
 6º Redes Sociales funcionales y que al tener la mano sobre las redes sociales se cambie la imagen por la original con color✅
 7º Paleta de Colores de la página❎
 8º Agregar icono a Velitas Dai (en barra de buscador) ❌
-9º Acomodar imagen de presentación ❌
+9º Acomodar imagen de presentación ✅
 10º Que hacer con la imágen ceci.bec-marca.personal-daina-14
 11º Incrustar un feed de Instagram en un sitio web HTML❎
 12º Ver si se puede crear la pagina online gratuitamente✅
+
+-> Saqué el emoji de saludo en los mensajes de wpp porque daba problemas en algunos celulares (no cargaba bien el emoji) ✅
+-> Puse bordes a los logos de la cuenta. ✅
+-> El precio en el modal debería ser mas grande.✅
+-> Yo cambiaría la fuente y/o el tamaño de la letra (se ve chica)✅ (DICE DARIO QUE LAS LETRAS DEL HEADER PODRÍAN SER MAS GRANDE)
 -> Cambiar el href del header (icono Velitas dai) y el href del final (.com) al dominio de la página (que la reinicie).❌
+-> Hay problema de media queries en algunos navegadores de celular como: Mozilla firefox (la pantalla es del mismo tamaño pero en Chrome se ve bien y en Firefox no).❌
+-> FALTAN ALGUNAS DESCRIPCIONES DE CARD Y MODAL.❌
+-> En vez de circulito para seleccionar varias que sea simplemente tocar la tarjeta para seleccionar? ❌
 
 
 SOLICITUDES DAI:
